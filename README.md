@@ -91,6 +91,12 @@ Contributions are welcome! If you have suggestions for improvements or find bugs
         <b>KaTeX</b><br/>
       </a>
     </td>
+    <td align="center">
+      <a href="https://www.webcomponents.org/" target="_blank">
+        <img src="https://web-components-resources.appspot.com/static/logo.svg" alt="Web component" width="42" height="42" /><br/>
+        <b>Web components</b><br/>
+      </a>
+    </td>
   </tr>
 </table>
 
