@@ -24,6 +24,9 @@
     "type": "github",
     "url": "https://github.com/MetalbolicX/math-term.git"
   },
+  "bugs": {
+    "url": "https://github.com/MetalbolicX/math-term/issues"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
