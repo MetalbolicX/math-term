@@ -1,6 +1,6 @@
 {
   "name": "math-term",
-  "description": "Math term is a web component that allows you to write mathematical expressions in your HTML documents.",
+  "description": "Math term is your component that helps you to write mathematical equations in the browser.",
   "version": "1.0.0",
   "type": "module",
   "main": "dist/math-term.js",
@@ -21,8 +21,8 @@
   },
   "license": "MIT",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/MetalbolicX/math-term"
+    "type": "github",
+    "url": "https://github.com/MetalbolicX/math-term.git"
   },
   "scripts": {
     "dev": "vite",
