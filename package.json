@@ -1,7 +1,7 @@
 {
   "name": "math-term",
   "description": "Math term is your web component that helps you to write mathematical equations in the browser.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/math-term.js",
   "files": [
