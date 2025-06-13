@@ -64,10 +64,9 @@ In the **body** of the HTML file, add the `math-term` component and provide the 
 |---|---|---|
 |displayBlockMode|boolean|If true, renders the math expression in block mode instead of inline mode.|
 
-## 💡 Notes
+## 💡 Do you want to learn more?
 
-* Uses KaTeX for rendering.
-* Any mathematical expression can be written in LaTeX syntax.
+* Get use to write LaTeX expressions with [Overleaf](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes).
 
 ## License
 
