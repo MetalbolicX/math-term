@@ -91,8 +91,6 @@ class MathTerm extends HTMLElement {
       .error {
         display: flex;
         align-items: center;
-        color: white;
-        background-color: #d32f2f; /* Red */
         border: 1px solid #b71c1c; /* Darker Red */
         padding: 0.6em;
         border-radius: 5px;
