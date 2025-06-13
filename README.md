@@ -2,9 +2,10 @@
 
 > Write mathematical expressions in your web page.
 
-![katex](https://img.shields.io/npm/v/math-term?color=blue&label=npm)
+**Suported Versions:**
+![KaTeX](https://img.shields.io/badge/KaTeX->=0.16.21-blue)
 
-A custom element to render mathematical expressions in a web page using [KaTeX](https://katex.org/). Write in [LaTex](https://www.latex-project.org/) and enjoy!
+A custom element to render mathematical expressions in a web page using [KaTeX](https://katex.org/). Write in [LaTeX](https://www.latex-project.org/) and enjoy!
 
 ## 📦 Installation
 
@@ -43,6 +44,9 @@ In the **body** of the HTML file, add the `math-term` component and provide the 
 <math-term>f(x) = \frac{1}{x}</math-term>
 ```
 
+> [!CAUTION]
+> When the LaTeX syntax is incorrect, the expression will be rendered as plain text in red. Make sure to write valid LaTeX expressions.
+
 ## Full Example
 
 ```html
@@ -68,7 +72,29 @@ In the **body** of the HTML file, add the `math-term` component and provide the 
 
 * Get use to write LaTeX expressions with [Overleaf](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes).
 
+## Contributing
+Contributions are welcome! If you have suggestions for improvements or find bugs, please open an issue or submit a pull request.
+
+## Technologies Used
+
+<table style="border: none;">
+  <tr>
+    <td align="center">
+      <a href="https://www.typescriptlang.org/" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" alt="TypeScript" width="42" height="42" /><br/>
+        <b>TypeScript</b><br/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://katex.org/" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/31191489?s=200&v=4" alt="KaTeX" width="42" height="42" /><br/>
+        <b>KaTeX</b><br/>
+      </a>
+    </td>
+  </tr>
+</table>
+
 ## License
 
-This project is licensed under the MIT License.
+Released under the [MIT License](/LICENSE) by [@MetalbolicX](https://github.com/MetalbolicX)
 
