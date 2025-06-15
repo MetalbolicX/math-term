@@ -3,6 +3,7 @@
 > Write mathematical expressions in your web page.
 
 **Suported Versions:**
+
 ![KaTeX](https://img.shields.io/badge/KaTeX->=0.16.21-blue)
 
 A custom element to render mathematical expressions in a web page using [KaTeX](https://katex.org/). Write in [LaTeX](https://www.latex-project.org/) and enjoy!
@@ -19,7 +20,7 @@ npm i math-term
 If your are creating a project with a bundler like Webpack, Rollup, or Parcel, you can `import` the component in your JavaScript/TypeScript file:
 
 ```js
-import 'math-term';
+import "math-term";
 ```
 
 ### Using a CDN
@@ -27,13 +28,13 @@ import 'math-term';
 You can also use a CDN to include the component in your project. Add the following script tag to your HTML file:
 
 ```html
-<script type="module" src="https://cdn.jsdelivr.net/npm/math-term/dist/math-term.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/math-term/dist/math-term.js" lang="javascript"></script>
 ```
 
 or
 
 ```html
-<script type="module" src="https://unpkg.com/math-term/dist/math-term.js"></script>
+<script type="module" src="https://unpkg.com/math-term/dist/math-term.js" lang="javascript"></script>
 ```
 
 ## 🚀 Usage
@@ -44,8 +45,7 @@ In the **body** of the HTML file, add the `math-term` component and provide the 
 <math-term>f(x) = \frac{1}{x}</math-term>
 ```
 
-> [!CAUTION]
-> When the LaTeX syntax is incorrect, the expression will be rendered as plain text in red. Make sure to write valid LaTeX expressions.
+> 🚧 **Caution:** When the LaTeX syntax is incorrect, the expression will be rendered as plain text in red. Make sure to write valid LaTeX expressions.
 
 ## Full Example
 
@@ -66,7 +66,7 @@ In the **body** of the HTML file, add the `math-term` component and provide the 
 
 |Attribute|Type|Description|
 |---|---|---|
-|displayBlockMode|boolean|If true, renders the math expression in block mode instead of inline mode.|
+|`displayBlockMode`|boolean|If true, renders the math expression in block mode instead of inline mode.|
 
 ## 💡 Do you want to learn more?
 
